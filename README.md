@@ -1,20 +1,12 @@
-# Go Gin Example [![rcard](https://goreportcard.com/badge/github.com/EDDYCJY/go-gin-example)](https://goreportcard.com/report/github.com/EDDYCJY/go-gin-example) [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/EDDYCJY/go-gin-example) [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/EDDYCJY/go-gin-example/master/LICENSE)
+# Daemon4Neo [![rcard](https://goreportcard.com/badge/github.com/EDDYCJY/go-gin-example)](https://goreportcard.com/report/github.com/EDDYCJY/go-gin-example) [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/EDDYCJY/go-gin-example) [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/EDDYCJY/go-gin-example/master/LICENSE)
 
-An example of gin contains many useful features
 
-[简体中文](https://github.com/EDDYCJY/go-gin-example/blob/master/README_ZH.md)
-
-## Installation
-```
-$ go get github.com/EDDYCJY/go-gin-example
-```
 
 ## How to run
 
 ### Required
 
-- Mysql
-- Redis
+- -
 
 ### Ready
 
@@ -44,8 +36,6 @@ IdleTimeout = 200
 
 ### Run
 ```
-$ cd $GOPATH/src/go-gin-example
-
 $ go run main.go 
 ```
 
@@ -76,14 +66,3 @@ Swagger doc
 ![image](https://i.imgur.com/bVRLTP4.jpg)
 
 ## Features
-
-- RESTful API
-- Gorm
-- Swagger
-- logging
-- Jwt-go
-- Gin
-- Graceful restart or stop (fvbock/endless)
-- App configurable
-- Cron
-- Redis
