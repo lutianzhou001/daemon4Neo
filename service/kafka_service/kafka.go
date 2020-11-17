@@ -17,7 +17,7 @@ func Produce(message []byte) (err error) {
 
 	// 构造一个消息
 	msg := &sarama.ProducerMessage{}
-	msg.Topic = "quickstart-events"
+	msg.Topic = "blocknumber"
 	msg.Value = sarama.StringEncoder(message)
 	// 连接kafka
 	client, err := sarama.NewSyncProducer([]string{"127.0.0.1:9092"}, config)

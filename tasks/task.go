@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"time"
 
 	"github.com/EDDYCJY/go-gin-example/service/kafka_service"
 )
@@ -46,8 +47,9 @@ func GetBlockNumber() error {
 		"method":  "submitData",
 		"id":      1,
 		"params": map[string]interface{}{
-			"key":   "getblockcount",
-			"value": blockNumber,
+			"key":       "getblockcount",
+			"value":     blockNumber,
+			"timestamp": time.Now().Unix(),
 		},
 	})
 
